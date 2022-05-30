@@ -1,0 +1,29 @@
+body {
+
+    background-image: url(imgnuevapag/presence-ii.png);
+}
+
+
+.bg-nacho {
+
+    background-color: bisque;
+}
+
+.ips {
+
+    font-weight: bold;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    grid-template-rows: 350px;
+    grid-column-gap: 2px;
+    grid-row-gap: 1px;
+    }
+
+.imgn {
+
+    height: 100%;
+    width: 100%;
+}

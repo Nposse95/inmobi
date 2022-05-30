@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nueva pagina bootstrap</title>
+
+    <!--Link bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg bg-nacho">
+            <div class="container-fluid">
+              <a class="navbar-brand ips" href="#">Inmobiliaria</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">dptos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">casas</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <section class="d-flex justify-content-center bg-dark">
+      <div id="carouselExampleControls" class="carousel slide w-50" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imgnuevapag/imgfotos1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item text-center">
+            <img src="imgnuevapag/imgfotos2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item text-center">
+            <img src="imgnuevapag/imgfotos3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section>
+      <span class="placeholder col-12 placeholder-lg"></span>
+    </section>
+
+
+    <section class="grid d-flex justify-content-around mt-2">
+      <div class="card">
+        <div class="row g-0">
+          <div class="g.col-5 col-sm-4">
+            <img src="http://dummyimage.com/600x300" class="img-fluid w-100" alt="card-horizontal-image">
+          </div>
+          <div class="col-7 col-sm-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="row g-0">
+          <div class="col-5 col-sm-4">
+            <img src="http://dummyimage.com/600x300" class="img-fluid w-100" alt="card-horizontal-image">
+          </div>
+          <div class="col-7 col-sm-8">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="parent mt-3 mb-3">
+      <div><img class="imgn" src="imgnuevapag/casa1.jpg" alt="casa1"></div>
+      <div><img class="imgn" src="imgnuevapag/casa2.jpg" alt="casa2"></div>
+      <div><img class="imgn" src="imgnuevapag/casa3.jpg" alt="casa3"></div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
