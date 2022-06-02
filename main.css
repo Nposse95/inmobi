@@ -30,20 +30,33 @@ body {
     width: 100%;
 }
 
-.loremips {
-    font-weight: bold;
-    font-size: 2rem;
 
-}
 
 footer {
-    
-    background-color: rgba(18, 11, 11, 0.717);
-    border: 2px solid black;
+       
     border-radius: 10px 30px;
     padding: 20px 20px 20px 20px;
     margin: 5px 5px 5px 5px;
 
 }
 
+.menu ul {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul li {
+
+    font-size: 2rem;
+    list-style: none;
+    background-color: aliceblue
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+.parrafo {
+
+    font-size: 2rem;
+}
 
